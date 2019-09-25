@@ -1,0 +1,15 @@
+{
+    "SomeUser_name": {
+        "name": "SomeName",
+        "password": "TopSecret1234!",
+        "favouriteFruit": "some fruit",
+        "favouriteMovie": "The Room",
+        "favouriteNumber": "BN<1234>"
+    },
+    "dummytree": {
+        "password": "test1",
+        "favouriteFruit": "Mango",
+        "favouriteMovie": "V for Vendetta",
+        "favouriteNumber": "The last prime number"
+    }
+}
