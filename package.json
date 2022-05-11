@@ -18,7 +18,7 @@
     "@mdi/js": "^4.1.95",
     "@mdi/react": "^1.2.1",
     "@meldcx/agent": "1.0.31",
-    "cypress": "^3.4.1",
+    "cypress": "^3.8.3",
     "express": "^4.17.1",
     "howler": "^2.1.2",
     "react": "^16.9.0",
