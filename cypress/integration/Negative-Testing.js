@@ -1,4 +1,4 @@
-describe('QA-CODE-QUIZ', function () {
+describe('Negative Testing: QA-CODE-QUIZ', function () {
     it('First visit', function () {
         cy.visit('/')
         cy.wait(3000)
@@ -27,7 +27,7 @@ describe('QA-CODE-QUIZ', function () {
             cy.get('[placeholder="Enter Username"]').type('someone@gmail.com')
             cy.get('[placeholder="password"]').type('TopSecret121dfaa')
             cy.get('.sc-bZQynM').click()
-            cy.wait(3000)
+            cy.wait(2000)
             cy.visit('/')
         })
     
@@ -35,7 +35,7 @@ describe('QA-CODE-QUIZ', function () {
             cy.get('[placeholder="Enter Username"]').type('someone@gmail.com')
             cy.get('[placeholder="password"]').type('TopSecret1234!')
             cy.get('.sc-bZQynM').click()
-            cy.wait(3000)
+            cy.wait(2000)
             cy.visit('/')
         })
 
@@ -43,7 +43,7 @@ describe('QA-CODE-QUIZ', function () {
             cy.get('[placeholder="Enter Username"]').type('#@%^%#$@#$@#.com')
             cy.get('[placeholder="password"]').type('TopSecret1234!')
             cy.get('.sc-bZQynM').click()
-            cy.wait(3000)
+            cy.wait(2000)
             cy.visit('/')
         })
 
@@ -51,7 +51,7 @@ describe('QA-CODE-QUIZ', function () {
             cy.get('[placeholder="Enter Username"]').type('@example.com')
             cy.get('[placeholder="password"]').type('TopSecret1234!')
             cy.get('.sc-bZQynM').click()
-            cy.wait(3000)
+            cy.wait(2000)
             cy.visit('/')
         })
 
@@ -59,7 +59,7 @@ describe('QA-CODE-QUIZ', function () {
             cy.get('[placeholder="Enter Username"]').type('Some one <email@example.com>')
             cy.get('[placeholder="password"]').type('TopSecret1234!')
             cy.get('.sc-bZQynM').click()
-            cy.wait(3000)
+            cy.wait(2000)
             cy.visit('/')
         })
 
@@ -67,7 +67,7 @@ describe('QA-CODE-QUIZ', function () {
             cy.get('[placeholder="Enter Username"]').type('email.example.com')
             cy.get('[placeholder="password"]').type('TopSecret1234!')
             cy.get('.sc-bZQynM').click()
-            cy.wait(3000)
+            cy.wait(2000)
             cy.visit('/')
         })
 
@@ -75,7 +75,7 @@ describe('QA-CODE-QUIZ', function () {
             cy.get('[placeholder="Enter Username"]').type('email@example@example.com')
             cy.get('[placeholder="password"]').type('TopSecret1234!')
             cy.get('.sc-bZQynM').click()
-            cy.wait(3000)
+            cy.wait(2000)
             cy.visit('/')
         })
 
@@ -83,7 +83,7 @@ describe('QA-CODE-QUIZ', function () {
             cy.get('[placeholder="Enter Username"]').type('.email@example.com')
             cy.get('[placeholder="password"]').type('TopSecret1234!')
             cy.get('.sc-bZQynM').click()
-            cy.wait(3000)
+            cy.wait(2000)
             cy.visit('/')
         })
 
@@ -91,7 +91,7 @@ describe('QA-CODE-QUIZ', function () {
             cy.get('[placeholder="Enter Username"]').type('email..email@example.com')
             cy.get('[placeholder="password"]').type('TopSecret1234!')
             cy.get('.sc-bZQynM').click()
-            cy.wait(3000)
+            cy.wait(2000)
             cy.visit('/')
         })
 
@@ -99,7 +99,7 @@ describe('QA-CODE-QUIZ', function () {
             cy.get('[placeholder="Enter Username"]').type('Abc..123@example.com')
             cy.get('[placeholder="password"]').type('TopSecret1234!')
             cy.get('.sc-bZQynM').click()
-            cy.wait(3000)
+            cy.wait(2000)
             cy.visit('/')
         })
 
@@ -107,7 +107,7 @@ describe('QA-CODE-QUIZ', function () {
             cy.get('[placeholder="Enter Username"]').type('AJSsdsdasacarmvJkasjs')
             cy.get('[placeholder="password"]').type('TopSecret1234!')
             cy.get('.sc-bZQynM').click()
-            cy.wait(3000)
+            cy.wait(2000)
             cy.visit('/')
         })
 
@@ -115,7 +115,7 @@ describe('QA-CODE-QUIZ', function () {
             cy.get('[placeholder="Enter Username"]').type('135464635568461')
             cy.get('[placeholder="password"]').type('TopSecret1234!')
             cy.get('.sc-bZQynM').click()
-            cy.wait(3000)
+            cy.wait(2000)
             cy.visit('/')
         })
 
@@ -123,7 +123,7 @@ describe('QA-CODE-QUIZ', function () {
             cy.get('[placeholder="Enter Username"]').type('~!@$%^&*()_+=-')
             cy.get('[placeholder="password"]').type('TopSecret1234!')
             cy.get('.sc-bZQynM').click()
-            cy.wait(3000)
+            cy.wait(2000)
             cy.visit('/')
         })
     })

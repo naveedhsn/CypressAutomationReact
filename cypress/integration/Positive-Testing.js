@@ -1,4 +1,4 @@
-describe('QA-CODE-QUIZ', function () {
+describe('Positive Testing: QA-CODE-QUIZ', function () {
     it('First visit', function () {
         cy.visit('/')
         cy.wait(3000)
